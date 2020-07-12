@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bolum5"
+    android:id="@+id/rellay5"
+    android:gravity="center_horizontal"
+    android:clickable="true"
+    android:background="#E5B68A">
+
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="99dp">
+
+
+        <ImageView
+            android:id="@+id/imageson1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorArttir"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/mirket"
+             />
+
+        <ImageView
+            android:id="@+id/imageson2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:onClick="skorArttir"
+            app:srcCompat="@drawable/mirket" />
+
+
+
+        <ImageView
+            android:id="@+id/imageson3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorArttir"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/mirket" />
+
+        <ImageView
+            android:id="@+id/imageson4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorArttir"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/mirket" />
+
+        <ImageView
+            android:id="@+id/imageson5"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorArttir"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/mirket" />
+
+        <ImageView
+            android:id="@+id/imageson6"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorArttir"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/mirket" />
+
+        <ImageView
+            android:id="@+id/imageson7"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorArttir"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/mirket" />
+
+        <ImageView
+            android:id="@+id/imageson8"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorArttir"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/mirket" />
+
+        <ImageView
+            android:id="@+id/imageson9"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorArttir"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/mirket" />
+
+        <ImageView
+            android:id="@+id/bombson1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorAzalt"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/bomba3"
+            android:visibility="invisible"
+            tools:ignore="OnClick"
+            android:padding="20dp"/>
+
+        <ImageView
+            android:id="@+id/bombson2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorAzalt"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/bomba3"
+            android:visibility="invisible"
+            tools:ignore="OnClick"
+            android:padding="20dp"/>
+
+        <ImageView
+            android:id="@+id/bombson3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorAzalt"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/bomba3"
+            android:visibility="invisible"
+            tools:ignore="OnClick"
+            android:padding="20dp"/>
+
+        <ImageView
+            android:id="@+id/bombson4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorAzalt"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/bomba3"
+            android:visibility="invisible"
+            tools:ignore="OnClick"
+            android:padding="20dp"/>
+
+        <ImageView
+            android:id="@+id/bombson5"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorAzalt"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/bomba3"
+            android:visibility="invisible"
+            tools:ignore="OnClick"
+            android:padding="20dp"/>
+        <ImageView
+            android:id="@+id/bombson6"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorAzalt"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/bomba3"
+            android:visibility="invisible"
+            tools:ignore="OnClick"
+            android:padding="20dp"/>
+
+        <ImageView
+            android:id="@+id/bombson7"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorAzalt"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/bomba3"
+            android:visibility="invisible"
+            tools:ignore="OnClick"
+            android:padding="20dp"/>
+
+        <ImageView
+            android:id="@+id/bombson8"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorAzalt"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/bomba3"
+            android:visibility="invisible"
+            tools:ignore="OnClick"
+            android:padding="20dp"/>
+        <ImageView
+            android:id="@+id/bombson9"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:onClick="skorAzalt"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/bomba3"
+            android:visibility="invisible"
+            tools:ignore="OnClick"
+            android:padding="20dp"/>
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/txtSure"
+        android:layout_width="229dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal|center"
+        android:text="KALAN SÜRE : 15"
+        android:textColor="#f5070808"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtSkor"
+            android:layout_width="229dp"
+            android:layout_height="62dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal|center"
+            android:text="SKOR : 0"
+            android:textColor="#f5070808"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_alignParentBottom="true"
+        android:gravity="right">
+        <TextView
+            android:id="@+id/txtDesign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="casual"
+            android:text="Designed By  Talhaakkoc"
+            android:textColor="#fb24f97d"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
